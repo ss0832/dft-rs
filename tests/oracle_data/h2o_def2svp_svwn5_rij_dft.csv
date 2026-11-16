@@ -1,0 +1,11 @@
+# PROVENANCE: PySCF 2.14.0 density-fitted DFT oracle (def2-universal-JFIT, values only)
+# geometry unit: Bohr (exact literals); pyscf grid level 9
+basis,def2-svp
+functional,svwn5
+density_fit,def2-universal-jfit
+charge,0
+mult,1
+atom,8,0.0,0.0,0.2217
+atom,1,0.0,1.4309,-0.8867
+atom,1,0.0,-1.4309,-0.8867
+e_tot,-7.57952694586373e+01

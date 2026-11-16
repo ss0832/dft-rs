@@ -1,0 +1,15 @@
+! SPDX-License-Identifier: Apache-2.0
+! Copyright (c) 2026 ss0832
+! This file is part of the dft-rs library.
+! Compact numerical validation model, not a recommended chemical basis.
+! Scalar local/nonlocal core potentials are supplied separately.
+H 0
+S 1 1.00
+  0.85 1.0
+****
+P 0
+S 1 1.00
+  0.50 1.0
+S 1 1.00
+  0.15 1.0
+****

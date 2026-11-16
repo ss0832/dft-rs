@@ -1,0 +1,10 @@
+# PROVENANCE: PySCF 2.14.0, libxc 7.0.0; EDF2 identifier476; VWN5
+# spherical STO-3G, grid9, integer populations, no extra corrections
+basis,sto-3g
+functional,edf2
+charge,0
+mult,1
+atom,8,0.0,0.0,0.2217
+atom,1,0.0,1.4309,-0.8867
+atom,1,0.0,-1.4309,-0.8867
+e_tot,-7.5271378611209727e+01

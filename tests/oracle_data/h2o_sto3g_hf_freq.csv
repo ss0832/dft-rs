@@ -1,0 +1,12 @@
+# PROVENANCE: PySCF 2.14.0 frequency oracle
+# optimized geometry (Bohr) + harmonic wavenumbers (cm^-1)
+basis,sto-3g
+functional,hf
+charge,0
+mult,1
+atom,8,-0.000000000000,-0.000000000000,0.283860803541
+atom,1,-0.000000000000,1.432544056298,-0.917780401770
+atom,1,0.000000000000,-1.432544056298,-0.917780401771
+freq,2169.999904
+freq,4139.205205
+freq,4390.154523

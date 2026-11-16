@@ -1,0 +1,40 @@
+# PROVENANCE: SMD reference implementation (MNSOL interface shipped
+#   with PySCF 2.14.0) evaluated as an ORACLE only - values, not code.
+# Geometries in Angstrom, see tools/oracle/gen_smd_cds.py.
+# Columns: molecule,solvent,g_cds_hartree
+water,water,0.002298448590
+water,methanol,0.001740245630
+water,ethanol,0.001192005374
+water,acetone,-0.001400349129
+water,acetonitrile,-0.000598592793
+water,dimethylsulfoxide,-0.001725212508
+water,benzene,-0.001440527867
+water,toluene,-0.001347952495
+water,chloroform,0.000024883730
+water,carbon tetrachloride,-0.001217063624
+water,1,4-dioxane,-0.001666286248
+water,cyclohexane,-0.000870980350
+methane,water,0.004394661800
+methane,methanol,0.001825020796
+methane,ethanol,0.001733759551
+methane,acetone,0.001368352967
+methane,acetonitrile,0.001546078540
+methane,dimethylsulfoxide,0.002738255793
+methane,benzene,0.000729106336
+methane,toluene,0.000838819817
+methane,chloroform,0.000804269016
+methane,carbon tetrachloride,0.000499647517
+methane,1,4-dioxane,0.001956384840
+methane,cyclohexane,0.000889175739
+methanol,water,0.003936819191
+methanol,methanol,0.002414753303
+methanol,ethanol,0.001932458862
+methanol,acetone,-0.000306908327
+methanol,acetonitrile,0.000412613877
+methanol,dimethylsulfoxide,0.000261752084
+methanol,benzene,-0.000740123813
+methanol,toluene,-0.000603511055
+methanol,chloroform,0.000443087500
+methanol,carbon tetrachloride,-0.000707603390
+methanol,1,4-dioxane,-0.000163288975
+methanol,cyclohexane,-0.000208449769

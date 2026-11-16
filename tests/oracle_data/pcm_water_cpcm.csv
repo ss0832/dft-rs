@@ -1,0 +1,5 @@
+# PROVENANCE: PySCF 2.14.0 C-PCM oracle (values only); HF/STO-3G water,
+# eps = 78.3553, PySCF default cavity (Lebedev 302, modified Bondi x 1.2)
+e_gas,-74.961810131337
+e_solvated,-74.967939869197
+dg_elst,-0.006129737859

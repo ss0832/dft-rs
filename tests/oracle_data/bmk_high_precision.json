@@ -1,0 +1,26 @@
+{
+  "publication": "Boese-Martin,JCP121,3405(2004),doi10.1063/1.1774975,Eqs1-22/TableII; original PW92/Stoll spin split",
+  "method": "Independent5-variable second-order Decimal jets at80/120digits and separate100digit closed sigma Hessian; raw Libxc fixture retained unchanged",
+  "input_convention": "Exact binary64 point lifted with Decimal.from_float; rho_a,rho_b,sigma_aa,sigma_ab,sigma_bb,tau_a,tau_b; energy per volume; half-weighted tau",
+  "units": "Hartree*Bohr^13",
+  "point": [
+    0.02,
+    0.015,
+    0.0001,
+    5e-05,
+    6e-05,
+    0.004,
+    0.003
+  ],
+  "sigma_aa_second_partial": 80718.64612830256,
+  "high_precision_decimal": "80718.64612830255871840604425974194347337676555245017987742636446258679092401720045776736775569943085",
+  "jet_closed_difference": "9.2401720045776736775569943085E-67",
+  "potential_limit_steps": [
+    "0.000001",
+    "5E-7",
+    "2.5E-7",
+    "1.25E-7"
+  ],
+  "potential_limit_exponent": 2.000026968742299,
+  "potential_limit_r_squared": 0.9999999999511515
+}

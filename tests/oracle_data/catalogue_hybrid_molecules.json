@@ -1,0 +1,397 @@
+{
+  "provenance": "PySCF 2.14.0, libxc 7.0.0",
+  "basis": "sto-3g",
+  "grid_level": 9,
+  "units": "Hartree and Bohr",
+  "memory_mb": 256,
+  "threads": 2,
+  "molecules": {
+    "h2": {
+      "numbers": [
+        1,
+        1
+      ],
+      "positions": [
+        [
+          0.0,
+          0.0,
+          -0.7
+        ],
+        [
+          0.0,
+          0.0,
+          0.7
+        ]
+      ]
+    },
+    "lih": {
+      "numbers": [
+        3,
+        1
+      ],
+      "positions": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0139
+        ]
+      ]
+    },
+    "water": {
+      "numbers": [
+        8,
+        1,
+        1
+      ],
+      "positions": [
+        [
+          0.0,
+          0.0,
+          0.2217
+        ],
+        [
+          0.0,
+          1.4309,
+          -0.8867
+        ],
+        [
+          0.0,
+          -1.4309,
+          -0.8867
+        ]
+      ]
+    },
+    "phosphine": {
+      "numbers": [
+        15,
+        1,
+        1,
+        1
+      ],
+      "positions": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          2.27,
+          0.0,
+          -1.46
+        ],
+        [
+          -1.1349999999999996,
+          1.9658776665906759,
+          -1.46
+        ],
+        [
+          -1.1350000000000011,
+          -1.9658776665906752,
+          -1.46
+        ]
+      ]
+    },
+    "ferrocene": {
+      "numbers": [
+        26,
+        6,
+        6,
+        6,
+        6,
+        6,
+        1,
+        1,
+        1,
+        1,
+        1,
+        6,
+        6,
+        6,
+        6,
+        6,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "positions": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          2.28,
+          0.0,
+          3.14
+        ],
+        [
+          0.7045587471748801,
+          2.16840885715295,
+          3.14
+        ],
+        [
+          -1.8445587471748799,
+          1.3401503752268389,
+          3.14
+        ],
+        [
+          -1.8445587471748803,
+          -1.3401503752268384,
+          3.14
+        ],
+        [
+          0.7045587471748797,
+          -2.1684088571529503,
+          3.14
+        ],
+        [
+          4.32,
+          0.0,
+          3.14
+        ],
+        [
+          1.334953415699773,
+          4.108564150395064,
+          3.14
+        ],
+        [
+          -3.4949534156997726,
+          2.5392322899034845,
+          3.14
+        ],
+        [
+          -3.494953415699774,
+          -2.5392322899034836,
+          3.14
+        ],
+        [
+          1.3349534156997722,
+          -4.108564150395064,
+          3.14
+        ],
+        [
+          1.84455874717488,
+          1.3401503752268387,
+          -3.14
+        ],
+        [
+          -0.7045587471748799,
+          2.1684088571529503,
+          -3.14
+        ],
+        [
+          -2.28,
+          2.792194702055965e-16,
+          -3.14
+        ],
+        [
+          -0.7045587471748804,
+          -2.16840885715295,
+          -3.14
+        ],
+        [
+          1.8445587471748799,
+          -1.340150375226839,
+          -3.14
+        ],
+        [
+          3.494953415699773,
+          2.539232289903484,
+          -3.14
+        ],
+        [
+          -1.3349534156997727,
+          4.108564150395064,
+          -3.14
+        ],
+        [
+          -4.32,
+          5.290474172316566e-16,
+          -3.14
+        ],
+        [
+          -1.3349534156997735,
+          -4.108564150395064,
+          -3.14
+        ],
+        [
+          3.4949534156997726,
+          -2.539232289903485,
+          -3.14
+        ]
+      ]
+    }
+  },
+  "functionals": {
+    "blyp35": {
+      "oracle_identifier": "0.35*HF + 0.65*GGA_X_B88, GGA_C_LYP",
+      "energies": {
+        "h2": -1.1549425790490342,
+        "lih": -7.946541000541924,
+        "water": -75.28597566318777,
+        "phosphine": -339.2486206736486,
+        "ferrocene": -1631.9744289415332
+      },
+      "converged": {
+        "h2": true,
+        "lih": true,
+        "water": true,
+        "phosphine": true,
+        "ferrocene": true
+      }
+    },
+    "wc04": {
+      "oracle_identifier": "HYB_GGA_XC_WC04",
+      "energies": {
+        "h2": -1.164936801944143,
+        "lih": -7.874261987676059,
+        "water": -74.34856600699783,
+        "phosphine": -336.0595028047483,
+        "ferrocene": -1617.5160059864486
+      },
+      "converged": {
+        "h2": true,
+        "lih": true,
+        "water": true,
+        "phosphine": true,
+        "ferrocene": true
+      }
+    },
+    "wp04": {
+      "oracle_identifier": "HYB_GGA_XC_WP04",
+      "energies": {
+        "h2": -1.3251929602431822,
+        "lih": -8.396128177413866,
+        "water": -76.85508661882011,
+        "phosphine": -342.9692741126504,
+        "ferrocene": -1649.8090058671376
+      },
+      "converged": {
+        "h2": true,
+        "lih": true,
+        "water": true,
+        "phosphine": true,
+        "ferrocene": true
+      }
+    },
+    "pkzb": {
+      "oracle_identifier": "MGGA_X_PKZB,MGGA_C_PKZB",
+      "energies": {
+        "h2": -1.1608344737480225,
+        "lih": -7.939036901983412,
+        "water": -75.19352120183788,
+        "phosphine": -338.8833860306207,
+        "ferrocene": -1630.7971207072153
+      },
+      "converged": {
+        "h2": true,
+        "lih": true,
+        "water": true,
+        "phosphine": true,
+        "ferrocene": true
+      },
+      "reference_scf_attempts": {
+        "ferrocene": [
+          {
+            "solver": "RKS",
+            "converged": true,
+            "energy": -1630.7971207072153
+          }
+        ]
+      }
+    },
+    "edf2": {
+      "oracle_identifier": "HYB_GGA_XC_EDF2",
+      "energies": {
+        "h2": -1.1555665534335962,
+        "lih": -7.93697763119285,
+        "water": -75.2713786112097,
+        "phosphine": -339.2579014160403,
+        "ferrocene": -1632.1234256142045
+      },
+      "converged": {
+        "h2": true,
+        "lih": true,
+        "water": true,
+        "phosphine": true,
+        "ferrocene": true
+      }
+    },
+    "tpssloc": {
+      "oracle_identifier": "MGGA_X_TPSS,MGGA_C_TPSSLOC",
+      "energies": {
+        "h2": -1.1581333236849316,
+        "lih": -7.947380265728292,
+        "water": -75.31506642937053,
+        "phosphine": -339.2963691126563,
+        "ferrocene": -1632.5023036617602
+      },
+      "converged": {
+        "h2": true,
+        "lih": true,
+        "water": true,
+        "phosphine": true,
+        "ferrocene": true
+      }
+    },
+    "task": {
+      "oracle_identifier": "MGGA_X_TASK,LDA_C_PW",
+      "energies": {
+        "h2": -1.21741283195206,
+        "lih": -8.057853494501797,
+        "water": -75.38504069797393,
+        "phosphine": -339.19836271382746,
+        "ferrocene": -1632.0051567079788
+      },
+      "converged": {
+        "h2": true,
+        "lih": true,
+        "water": true,
+        "phosphine": true,
+        "ferrocene": true
+      },
+      "reference_scf_attempts": {
+        "ferrocene": [
+          {
+            "solver": "RKS",
+            "converged": true,
+            "energy": -1632.0051567079788
+          }
+        ]
+      }
+    },
+    "mtask": {
+      "oracle_identifier": "MGGA_X_MTASK,LDA_C_PW",
+      "energies": {
+        "h2": -1.2845316468180998,
+        "lih": -8.252688973938428,
+        "water": -75.79458646738483,
+        "phosphine": -339.9101799190572,
+        "ferrocene": -1635.81659564784
+      },
+      "converged": {
+        "h2": true,
+        "lih": true,
+        "water": true,
+        "phosphine": true,
+        "ferrocene": true
+      },
+      "reference_scf_attempts": {
+        "ferrocene": [
+          {
+            "solver": "RKS",
+            "converged": true,
+            "energy": -1635.81659564784
+          }
+        ]
+      }
+    }
+  }
+}

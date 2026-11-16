@@ -1,0 +1,15 @@
+# PROVENANCE: PySCF 2.14.0 RPA oracle (excitation energies, Hartree)
+# geometry unit: Bohr (exact literals); grid level 9
+basis,sto-3g
+functional,svwn5
+spin,spinresolved
+charge,0
+mult,2
+atom,6,0.0,0.0,0.0
+atom,1,2.0395,0.0,0.0
+atom,1,-1.0197,1.7662,0.0
+atom,1,-1.0197,-1.7662,0.0
+excitation,3.09335869309043e-01,3.6588956893e-11
+excitation,3.09344856555976e-01,1.9614714979e-31
+excitation,4.65777301391394e-01,3.4811827491e-03
+excitation,5.58923527050194e-01,1.2894666397e-08

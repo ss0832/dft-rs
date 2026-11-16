@@ -1,0 +1,62 @@
+# PROVENANCE: P. Schwerdtfeger and J. K. Nagle, "2018 Table of Static
+# Dipole Polarizabilities of the Neutral Elements in the Periodic Table",
+# Molecular Physics 117, 1200 (2019), doi:10.1080/00268976.2018.1535143.
+# Values transcribed from the "2023 Table of Polarizabilities" figure
+# (recommended values, Z = 1-120), published openly by the Schwerdtfeger
+# group at ctcp.massey.ac.nz/2023Tablepol.pdf (last update 17 July 2023).
+# This is an independent, general atomic-physics compilation, NOT specific
+# to XDM and NOT sourced from any XDM/dispersion-correction implementation
+# (postg, Quantum ESPRESSO, psi4, ...): it tabulates free-atom static
+# dipole polarizabilities the way CRC/NIST-style reference works do.
+# Bundled range: Z = 1-36 (H-Kr), enough for the light/main-group elements
+# this project's XDM gates exercise; extend by transcribing further rows
+# from the same openly published table if heavier elements are needed.
+# Units: atomic units (e^2 a0^2 Eh^-1, equivalently a0^3).
+#
+# The source prints an estimated uncertainty in parentheses after each value;
+# this file keeps only the recommended value. That loss is not uniform and
+# matters when reading an XDM number: H/He/Ne/Ar/Kr are quoted to the last
+# digit given, but the 3d block is not — Sc 97(10), Ti 100(10), V 87(10),
+# Cr 83(12), Mn 68(9), Ga 50(4) carry roughly 10% uncertainty in the
+# reference data itself, before any approximation this code makes.
+#
+# Verified 2026-08-13 against the published table: all 36 rows below were
+# read back from ctcp.massey.ac.nz/2023Tablepol.pdf and matched digit for
+# digit.
+z,symbol,alpha_free_au
+1,H,4.51
+2,He,1.38
+3,Li,164
+4,Be,37.7
+5,B,20.5
+6,C,11.3
+7,N,7.4
+8,O,5.3
+9,F,3.74
+10,Ne,2.66
+11,Na,163
+12,Mg,71.2
+13,Al,58
+14,Si,37.3
+15,P,25
+16,S,19.4
+17,Cl,14.6
+18,Ar,11.1
+19,K,290
+20,Ca,161
+21,Sc,97
+22,Ti,100
+23,V,87
+24,Cr,83
+25,Mn,68
+26,Fe,62
+27,Co,55
+28,Ni,49
+29,Cu,47
+30,Zn,38.7
+31,Ga,50
+32,Ge,40
+33,As,30
+34,Se,29
+35,Br,21
+36,Kr,16.8

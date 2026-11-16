@@ -1,0 +1,12 @@
+# PROVENANCE: PySCF 2.14.0 gradient oracle
+# geometry unit: Bohr; gradient Hartree/Bohr
+basis,def2-svp
+functional,svwn5
+charge,0
+mult,1
+atom,8,0.0,0.0,0.2217
+atom,1,0.0,1.4309,-0.8867
+atom,1,0.0,-1.4309,-0.8867
+grad,0,-2.290390572566e-16,-1.212668365857e-15,-2.093049455021e-02
+grad,1,1.444685459879e-17,-1.178671337265e-02,1.046524727511e-02
+grad,2,2.145760374806e-16,1.178671337265e-02,1.046524727511e-02

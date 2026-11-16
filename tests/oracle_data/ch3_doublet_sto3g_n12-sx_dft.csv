@@ -1,0 +1,11 @@
+# PROVENANCE: PySCF 2.14.0; numerical library 7.0.0
+# spherical STO-3G; grid9; N12-SX screened HF.25/0, omega.11
+basis,sto-3g
+functional,n12-sx
+charge,0
+mult,2
+atom,6,0.0,0.0,0.0
+atom,1,2.0395,0.0,0.0
+atom,1,-1.0197,1.7662,0.0
+atom,1,-1.0197,-1.7662,0.0
+e_tot,-3.9297399288294294e+01

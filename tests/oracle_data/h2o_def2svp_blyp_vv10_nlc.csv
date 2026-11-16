@@ -1,0 +1,10 @@
+# PROVENANCE: PySCF 2.14.0 VV10 oracle (b=5.9, C=0.0093)
+# self-consistent BLYP+VV10 vs plain BLYP, level-9 XC grid, level-3 NLC grid
+basis,def2-svp
+functional,blyp
+atom,8,0.0,0.0,0.2217
+atom,1,0.0,1.4309,-0.8867
+atom,1,0.0,-1.4309,-0.8867
+e_blyp,-7.63365054414383e+01
+e_blyp_vv10,-7.62928799270800e+01
+e_nlc_sc,4.36255143582827e-02

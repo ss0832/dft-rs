@@ -1,0 +1,452 @@
+{
+  "provenance": "PySCF 2.14.0 RHF/UHF; scalar cores from independent direct quadrature",
+  "units": {
+    "energy": "hartree",
+    "positions": "bohr"
+  },
+  "scf": {
+    "conv_tol": 1e-14,
+    "conv_tol_grad": 1e-12,
+    "max_cycle": 500
+  },
+  "core_quadrature": {
+    "radial_points": 240,
+    "polar_points": 48,
+    "azimuthal_points": 96,
+    "rmax_bohr": 10
+  },
+  "cases": [
+    {
+      "case": "g_ae_rhf",
+      "shell": "g",
+      "scalar_ecp": false,
+      "unrestricted": false,
+      "electrons": 2,
+      "positions": [
+        [
+          0.17,
+          -0.11,
+          0.23
+        ],
+        [
+          1.77,
+          0.18,
+          -0.53
+        ],
+        [
+          -0.31,
+          1.74,
+          -0.45
+        ],
+        [
+          -1.2,
+          -1.31,
+          -0.61
+        ]
+      ],
+      "nao": 14,
+      "basis_sha256": "63abe5e1361d6c47eb6ada6a22b6db159d9e905f13fbfa5c629a9257c11b89b6",
+      "energy": -19.876828208547938,
+      "nuclear_repulsion": 16.425593827216506,
+      "one_electron": -38.56595847256948,
+      "hartree": 4.527072873610063,
+      "exchange": -2.2635364368050315
+    },
+    {
+      "case": "g_ae_uhf",
+      "shell": "g",
+      "scalar_ecp": false,
+      "unrestricted": true,
+      "electrons": 3,
+      "positions": [
+        [
+          0.17,
+          -0.11,
+          0.23
+        ],
+        [
+          1.77,
+          0.18,
+          -0.53
+        ],
+        [
+          -0.31,
+          1.74,
+          -0.45
+        ],
+        [
+          -1.2,
+          -1.31,
+          -0.61
+        ]
+      ],
+      "nao": 14,
+      "basis_sha256": "63abe5e1361d6c47eb6ada6a22b6db159d9e905f13fbfa5c629a9257c11b89b6",
+      "energy": -25.093161097361662,
+      "nuclear_repulsion": 16.425593827216506,
+      "one_electron": -44.99176784716271,
+      "hartree": 6.149149924438761,
+      "exchange": -2.67613700185421
+    },
+    {
+      "case": "g_ecp_rhf",
+      "shell": "g",
+      "scalar_ecp": true,
+      "unrestricted": false,
+      "electrons": 2,
+      "positions": [
+        [
+          0.17,
+          -0.11,
+          0.23
+        ],
+        [
+          2.4099999999999997,
+          0.296,
+          -0.8339999999999999
+        ],
+        [
+          -0.5019999999999999,
+          2.48,
+          -0.722
+        ],
+        [
+          -1.7479999999999998,
+          -1.79,
+          -0.946
+        ]
+      ],
+      "nao": 14,
+      "basis_sha256": "63abe5e1361d6c47eb6ada6a22b6db159d9e905f13fbfa5c629a9257c11b89b6",
+      "energy": 1.286006047393915,
+      "nuclear_repulsion": 8.724270060518588,
+      "one_electron": -8.221211165424023,
+      "hartree": 1.5658943045987008,
+      "exchange": -0.7829471522993502
+    },
+    {
+      "case": "g_ecp_uhf",
+      "shell": "g",
+      "scalar_ecp": true,
+      "unrestricted": true,
+      "electrons": 3,
+      "positions": [
+        [
+          0.17,
+          -0.11,
+          0.23
+        ],
+        [
+          2.4099999999999997,
+          0.296,
+          -0.8339999999999999
+        ],
+        [
+          -0.5019999999999999,
+          2.48,
+          -0.722
+        ],
+        [
+          -1.7479999999999998,
+          -1.79,
+          -0.946
+        ]
+      ],
+      "nao": 14,
+      "basis_sha256": "63abe5e1361d6c47eb6ada6a22b6db159d9e905f13fbfa5c629a9257c11b89b6",
+      "energy": -1.2845079393768692,
+      "nuclear_repulsion": 8.724270060518588,
+      "one_electron": -11.482888850494717,
+      "hartree": 2.54127530755884,
+      "exchange": -1.0671644569595726
+    },
+    {
+      "case": "h_ae_rhf",
+      "shell": "h",
+      "scalar_ecp": false,
+      "unrestricted": false,
+      "electrons": 2,
+      "positions": [
+        [
+          0.17,
+          -0.11,
+          0.23
+        ],
+        [
+          1.77,
+          0.18,
+          -0.53
+        ],
+        [
+          -0.31,
+          1.74,
+          -0.45
+        ],
+        [
+          -1.2,
+          -1.31,
+          -0.61
+        ]
+      ],
+      "nao": 16,
+      "basis_sha256": "26de28e8370a81a524adf1fc71b2abbc9f0761e8a2166a569fd3b426bcd53f79",
+      "energy": -19.837670538350583,
+      "nuclear_repulsion": 16.425593827216506,
+      "one_electron": -38.520155651118976,
+      "hartree": 4.513782571103773,
+      "exchange": -2.2568912855518835
+    },
+    {
+      "case": "h_ae_uhf",
+      "shell": "h",
+      "scalar_ecp": false,
+      "unrestricted": true,
+      "electrons": 3,
+      "positions": [
+        [
+          0.17,
+          -0.11,
+          0.23
+        ],
+        [
+          1.77,
+          0.18,
+          -0.53
+        ],
+        [
+          -0.31,
+          1.74,
+          -0.45
+        ],
+        [
+          -1.2,
+          -1.31,
+          -0.61
+        ]
+      ],
+      "nao": 16,
+      "basis_sha256": "26de28e8370a81a524adf1fc71b2abbc9f0761e8a2166a569fd3b426bcd53f79",
+      "energy": -25.054483493942396,
+      "nuclear_repulsion": 16.425593827216506,
+      "one_electron": -44.94513474170105,
+      "hartree": 6.135463944496169,
+      "exchange": -2.67040652395404
+    },
+    {
+      "case": "h_ecp_rhf",
+      "shell": "h",
+      "scalar_ecp": true,
+      "unrestricted": false,
+      "electrons": 2,
+      "positions": [
+        [
+          0.17,
+          -0.11,
+          0.23
+        ],
+        [
+          2.4099999999999997,
+          0.296,
+          -0.8339999999999999
+        ],
+        [
+          -0.5019999999999999,
+          2.48,
+          -0.722
+        ],
+        [
+          -1.7479999999999998,
+          -1.79,
+          -0.946
+        ]
+      ],
+      "nao": 16,
+      "basis_sha256": "26de28e8370a81a524adf1fc71b2abbc9f0761e8a2166a569fd3b426bcd53f79",
+      "energy": 1.2818755241719249,
+      "nuclear_repulsion": 8.724270060518588,
+      "one_electron": -8.219561485007478,
+      "hartree": 1.5543338973216287,
+      "exchange": -0.7771669486608136
+    },
+    {
+      "case": "h_ecp_uhf",
+      "shell": "h",
+      "scalar_ecp": true,
+      "unrestricted": true,
+      "electrons": 3,
+      "positions": [
+        [
+          0.17,
+          -0.11,
+          0.23
+        ],
+        [
+          2.4099999999999997,
+          0.296,
+          -0.8339999999999999
+        ],
+        [
+          -0.5019999999999999,
+          2.48,
+          -0.722
+        ],
+        [
+          -1.7479999999999998,
+          -1.79,
+          -0.946
+        ]
+      ],
+      "nao": 16,
+      "basis_sha256": "26de28e8370a81a524adf1fc71b2abbc9f0761e8a2166a569fd3b426bcd53f79",
+      "energy": -1.2971585832720933,
+      "nuclear_repulsion": 8.724270060518588,
+      "one_electron": -11.491219695726413,
+      "hartree": 2.5332856585091896,
+      "exchange": -1.063494606573457
+    },
+    {
+      "case": "i_ae_rhf",
+      "shell": "i",
+      "scalar_ecp": false,
+      "unrestricted": false,
+      "electrons": 2,
+      "positions": [
+        [
+          0.17,
+          -0.11,
+          0.23
+        ],
+        [
+          1.77,
+          0.18,
+          -0.53
+        ],
+        [
+          -0.31,
+          1.74,
+          -0.45
+        ],
+        [
+          -1.2,
+          -1.31,
+          -0.61
+        ]
+      ],
+      "nao": 18,
+      "basis_sha256": "ca240ad884c00a121493097c7c904f310c8b9d4d03f72171379483badb63f898",
+      "energy": -19.825676834445016,
+      "nuclear_repulsion": 16.425593827216506,
+      "one_electron": -38.50630310563698,
+      "hartree": 4.510064887950912,
+      "exchange": -2.2550324439754545
+    },
+    {
+      "case": "i_ae_uhf",
+      "shell": "i",
+      "scalar_ecp": false,
+      "unrestricted": true,
+      "electrons": 3,
+      "positions": [
+        [
+          0.17,
+          -0.11,
+          0.23
+        ],
+        [
+          1.77,
+          0.18,
+          -0.53
+        ],
+        [
+          -0.31,
+          1.74,
+          -0.45
+        ],
+        [
+          -1.2,
+          -1.31,
+          -0.61
+        ]
+      ],
+      "nao": 18,
+      "basis_sha256": "ca240ad884c00a121493097c7c904f310c8b9d4d03f72171379483badb63f898",
+      "energy": -25.042728375318614,
+      "nuclear_repulsion": 16.425593827216506,
+      "one_electron": -44.93102142163962,
+      "hartree": 6.131295026051485,
+      "exchange": -2.668595806946973
+    },
+    {
+      "case": "i_ecp_rhf",
+      "shell": "i",
+      "scalar_ecp": true,
+      "unrestricted": false,
+      "electrons": 2,
+      "positions": [
+        [
+          0.17,
+          -0.11,
+          0.23
+        ],
+        [
+          2.4099999999999997,
+          0.296,
+          -0.8339999999999999
+        ],
+        [
+          -0.5019999999999999,
+          2.48,
+          -0.722
+        ],
+        [
+          -1.7479999999999998,
+          -1.79,
+          -0.946
+        ]
+      ],
+      "nao": 18,
+      "basis_sha256": "ca240ad884c00a121493097c7c904f310c8b9d4d03f72171379483badb63f898",
+      "energy": 1.289463126963521,
+      "nuclear_repulsion": 8.724270060518588,
+      "one_electron": -8.217580041838179,
+      "hartree": 1.565546216566224,
+      "exchange": -0.7827731082831124
+    },
+    {
+      "case": "i_ecp_uhf",
+      "shell": "i",
+      "scalar_ecp": true,
+      "unrestricted": true,
+      "electrons": 3,
+      "positions": [
+        [
+          0.17,
+          -0.11,
+          0.23
+        ],
+        [
+          2.4099999999999997,
+          0.296,
+          -0.8339999999999999
+        ],
+        [
+          -0.5019999999999999,
+          2.48,
+          -0.722
+        ],
+        [
+          -1.7479999999999998,
+          -1.79,
+          -0.946
+        ]
+      ],
+      "nao": 18,
+      "basis_sha256": "ca240ad884c00a121493097c7c904f310c8b9d4d03f72171379483badb63f898",
+      "energy": -1.2858000927508595,
+      "nuclear_repulsion": 8.724270060518588,
+      "one_electron": -11.48066915353417,
+      "hartree": 2.537676697755458,
+      "exchange": -1.0670776974907292
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+# PROVENANCE: PySCF 2.14.0 VV10 oracle (b=6.0, C=0.01)
+# self-consistent wB97M-V vs its semilocal part, level-9 XC grid, level-3 NLC grid
+basis,def2-svp
+functional,wb97mv
+atom,8,0.0,0.0,0.2217
+atom,1,0.0,1.4309,-0.8867
+atom,1,0.0,-1.4309,-0.8867
+e_semilocal,-7.63681277845370e+01
+e_total,-7.63254584476219e+01
+e_nlc_sc,4.26693369150826e-02

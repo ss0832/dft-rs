@@ -1,0 +1,14 @@
+# PROVENANCE: PySCF 2.14.0 TDA oracle (excitation energies, Hartree)
+# geometry unit: Bohr (exact literals); grid level 9
+basis,sto-3g
+functional,svwn5
+spin,singlet
+charge,0
+mult,1
+atom,8,0.0,0.0,0.2217
+atom,1,0.0,1.4309,-0.8867
+atom,1,0.0,-1.4309,-0.8867
+excitation,4.22014954053230e-01,2.6198395655e-03
+excitation,5.06466004609464e-01,8.0816116269e-29
+excitation,5.19526307548784e-01,7.4231289990e-02
+excitation,6.52158764936863e-01,6.6931084211e-02

@@ -1,0 +1,55 @@
+{
+  "model_version": "rigid-static-core-v1",
+  "unit_convention": "atomic",
+  "generation": {
+    "functional": "synthetic-zero-correction",
+    "basis": "bundled-hydrogen-1s",
+    "recipe": "identity-routing-fixture; not a fitted chemical model",
+    "source_record_sha256": null
+  },
+  "ledger": {
+    "full_electrons": 2,
+    "frozen_electrons": 0,
+    "active_electrons": 2,
+    "full_spin_electrons": [1, 1],
+    "frozen_spin_electrons": [0, 0],
+    "full_nuclear_charge": 2
+  },
+  "fragments": [
+    {
+      "atom": 0,
+      "basis_template": "one-center-h1s-local3-projector8-charge3-v1",
+      "reference_orientation": [[1, 0, 0], [0, 1, 0], [0, 0, 1]],
+      "euler_angles": [0.13, -0.27, 0.19],
+      "local_exponents": [0.3, 0.8, 1.7],
+      "local_amplitudes": [0, 0, 0],
+      "charge_exponents": [0.4, 0.9, 1.8],
+      "gaussian_charges": [0, 0, 0],
+      "body_dipoles": [[0, 0, 0], [0, 0, 0], [0, 0, 0]],
+      "projector_s_exponents": [0.5, 1.2],
+      "projector_p_exponents": [0.6, 1.4],
+      "nonlocal_upper": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "internal_energy_reference": 0.3
+    },
+    {
+      "atom": 1,
+      "basis_template": "one-center-h1s-local3-projector8-charge3-v1",
+      "reference_orientation": [[1, 0, 0], [0, 1, 0], [0, 0, 1]],
+      "euler_angles": [-0.17, 0.23, -0.31],
+      "local_exponents": [0.3, 0.8, 1.7],
+      "local_amplitudes": [0, 0, 0],
+      "charge_exponents": [0.4, 0.9, 1.8],
+      "gaussian_charges": [0, 0, 0],
+      "body_dipoles": [[0, 0, 0], [0, 0, 0], [0, 0, 0]],
+      "projector_s_exponents": [0.5, 1.2],
+      "projector_p_exponents": [0.6, 1.4],
+      "nonlocal_upper": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "internal_energy_reference": -0.1
+    }
+  ],
+  "scope": {
+    "experimental": true,
+    "chemical_accuracy": "not_established",
+    "internal_polarization": false
+  }
+}

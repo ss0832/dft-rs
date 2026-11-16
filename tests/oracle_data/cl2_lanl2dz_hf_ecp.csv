@@ -1,0 +1,9 @@
+# PROVENANCE: PySCF 2.14.0 ECP oracle (basis+ECP from dft-rs lanl2dz.g94, values only)
+# geometry unit: Bohr (exact literals)
+basis,lanl2dz
+functional,hf
+charge,0
+mult,1
+atom,17,0.0,0.0,0.0
+atom,17,0.0,0.0,3.756
+e_tot,-2.93354425962537e+01

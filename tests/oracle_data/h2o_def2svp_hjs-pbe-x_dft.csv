@@ -1,0 +1,12 @@
+# PROVENANCE: PySCF 2.14.0 DFT oracle (libxc-backed, values only)
+# geometry unit: Bohr (exact literals); pyscf grid level 9
+# pyscf xc string: gga_x_hjs_pbe,
+basis,def2-svp
+x,hjs-pbe-x
+c,none
+charge,0
+mult,1
+atom,8,0.0,0.0,0.2217
+atom,1,0.0,1.4309,-0.8867
+atom,1,0.0,-1.4309,-0.8867
+e_tot,-7.53303874099825e+01

@@ -1,0 +1,11 @@
+# PROVENANCE: PySCF 2.14.0, libxc 7.0.0; original PKZB213/239
+# spherical STO-3G, grid9; no frozen core or extra correction
+basis,sto-3g
+x,pkzb
+c,pkzb
+charge,0
+mult,1
+atom,8,0.0,0.0,0.2217
+atom,1,0.0,1.4309,-0.8867
+atom,1,0.0,-1.4309,-0.8867
+e_tot,-7.5193521201837896e+01

@@ -1,0 +1,435 @@
+[
+  {
+    "name": "h2",
+    "numbers": [
+      1,
+      1
+    ],
+    "positions": [
+      [
+        0.0,
+        0.0,
+        -0.7
+      ],
+      [
+        0.0,
+        0.0,
+        0.7
+      ]
+    ],
+    "quantum_atom": 0,
+    "quantum_exponents": [
+      4.0,
+      8.0,
+      16.0
+    ],
+    "quantum_lmax": 1,
+    "energy": -1.075044822369046,
+    "energy_components": {
+      "electronic_one_body": -0.6658667290203052,
+      "electronic_coulomb": 1.3493026545295868,
+      "electronic_exchange_correlation": -0.6746513272647935,
+      "electronic_nonlocal_correlation": 0.0,
+      "electron_quantum_coulomb": -1.7964585570050555,
+      "quantum_pair_coulomb": 0.0,
+      "interspecies_correlation": 0.0,
+      "quantum_kinetic": 0.01719982095335679,
+      "quantum_classical": 0.6954293154381647,
+      "classical": 0.0
+    },
+    "electronic_converged": true,
+    "quantum_commutator": 5.978580732261371e-14,
+    "quantum_density_map": 1.3774837526300731e-12,
+    "iterations": 44,
+    "provenance": "independent PySCF 2.14.0 Gaussian integrals and RHF; SciPy generalized nuclear eigensolve; no production density, energy, orbitals or kernel"
+  },
+  {
+    "name": "lih",
+    "numbers": [
+      3,
+      1
+    ],
+    "positions": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0139
+      ]
+    ],
+    "quantum_atom": 1,
+    "quantum_exponents": [
+      4.0,
+      8.0,
+      16.0
+    ],
+    "quantum_lmax": 1,
+    "energy": -7.822975594076892,
+    "energy_components": {
+      "electronic_one_body": -10.227821134268483,
+      "electronic_coulomb": 5.742229688419993,
+      "electronic_exchange_correlation": -2.1598935251998825,
+      "electronic_nonlocal_correlation": 0.0,
+      "electron_quantum_coulomb": -2.198040984660465,
+      "quantum_pair_coulomb": 0.0,
+      "interspecies_correlation": 0.0,
+      "quantum_kinetic": 0.01647593768652984,
+      "quantum_classical": 1.0040744239454151,
+      "classical": 0.0
+    },
+    "electronic_converged": true,
+    "quantum_commutator": 9.65922983866788e-14,
+    "quantum_density_map": 1.0671873169036356e-12,
+    "iterations": 42,
+    "provenance": "independent PySCF 2.14.0 Gaussian integrals and RHF; SciPy generalized nuclear eigensolve; no production density, energy, orbitals or kernel"
+  },
+  {
+    "name": "water",
+    "numbers": [
+      8,
+      1,
+      1
+    ],
+    "positions": [
+      [
+        0.0,
+        0.0,
+        0.2217
+      ],
+      [
+        0.0,
+        1.4309,
+        -0.8867
+      ],
+      [
+        0.0,
+        -1.4309,
+        -0.8867
+      ]
+    ],
+    "quantum_atom": 1,
+    "quantum_exponents": [
+      4.0,
+      8.0,
+      16.0
+    ],
+    "quantum_lmax": 1,
+    "energy": -74.92296504569588,
+    "energy_components": {
+      "electronic_one_body": -116.53270298395849,
+      "electronic_coulomb": 47.3056813958974,
+      "electronic_exchange_correlation": -9.103379127285393,
+      "electronic_nonlocal_correlation": 0.0,
+      "electron_quantum_coulomb": -5.650241389869847,
+      "quantum_pair_coulomb": 0.0,
+      "interspecies_correlation": 0.0,
+      "quantum_kinetic": 0.017469373092341776,
+      "quantum_classical": 4.620267839965949,
+      "classical": 4.419939846462154
+    },
+    "electronic_converged": true,
+    "quantum_commutator": 5.171589329386373e-14,
+    "quantum_density_map": 1.0536732142517722e-12,
+    "iterations": 43,
+    "provenance": "independent PySCF 2.14.0 Gaussian integrals and RHF; SciPy generalized nuclear eigensolve; no production density, energy, orbitals or kernel"
+  },
+  {
+    "name": "phosphine",
+    "numbers": [
+      15,
+      1,
+      1,
+      1
+    ],
+    "positions": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        2.27,
+        0.0,
+        -1.46
+      ],
+      [
+        -1.1349999999999996,
+        1.9658776665906759,
+        -1.46
+      ],
+      [
+        -1.1350000000000011,
+        -1.9658776665906752,
+        -1.46
+      ]
+    ],
+    "quantum_atom": 1,
+    "quantum_exponents": [
+      4.0,
+      8.0,
+      16.0
+    ],
+    "quantum_lmax": 1,
+    "energy": -338.58741480572195,
+    "energy_components": {
+      "electronic_one_body": -498.16959374848045,
+      "electronic_coulomb": 173.1750341418362,
+      "electronic_exchange_correlation": -23.820938170638826,
+      "electronic_nonlocal_correlation": 0.0,
+      "electron_quantum_coulomb": -7.129107889782492,
+      "quantum_pair_coulomb": 0.0,
+      "interspecies_correlation": 0.0,
+      "quantum_kinetic": 0.01780223394857357,
+      "quantum_classical": 5.969744383228699,
+      "classical": 11.369644244166327
+    },
+    "electronic_converged": true,
+    "quantum_commutator": 1.9197744308390947e-13,
+    "quantum_density_map": 1.2405681123695055e-12,
+    "iterations": 41,
+    "provenance": "independent PySCF 2.14.0 Gaussian integrals and RHF; SciPy generalized nuclear eigensolve; no production density, energy, orbitals or kernel"
+  },
+  {
+    "name": "ferrocene",
+    "numbers": [
+      26,
+      6,
+      6,
+      6,
+      6,
+      6,
+      1,
+      1,
+      1,
+      1,
+      1,
+      6,
+      6,
+      6,
+      6,
+      6,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "positions": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        2.28,
+        0.0,
+        3.14
+      ],
+      [
+        0.7045587471748801,
+        2.16840885715295,
+        3.14
+      ],
+      [
+        -1.8445587471748799,
+        1.3401503752268389,
+        3.14
+      ],
+      [
+        -1.8445587471748803,
+        -1.3401503752268384,
+        3.14
+      ],
+      [
+        0.7045587471748797,
+        -2.1684088571529503,
+        3.14
+      ],
+      [
+        4.32,
+        0.0,
+        3.14
+      ],
+      [
+        1.334953415699773,
+        4.108564150395064,
+        3.14
+      ],
+      [
+        -3.4949534156997726,
+        2.5392322899034845,
+        3.14
+      ],
+      [
+        -3.494953415699774,
+        -2.5392322899034836,
+        3.14
+      ],
+      [
+        1.3349534156997722,
+        -4.108564150395064,
+        3.14
+      ],
+      [
+        1.84455874717488,
+        1.3401503752268387,
+        -3.14
+      ],
+      [
+        -0.7045587471748799,
+        2.1684088571529503,
+        -3.14
+      ],
+      [
+        -2.28,
+        2.792194702055965e-16,
+        -3.14
+      ],
+      [
+        -0.7045587471748804,
+        -2.16840885715295,
+        -3.14
+      ],
+      [
+        1.8445587471748799,
+        -1.340150375226839,
+        -3.14
+      ],
+      [
+        3.494953415699773,
+        2.539232289903484,
+        -3.14
+      ],
+      [
+        -1.3349534156997727,
+        4.108564150395064,
+        -3.14
+      ],
+      [
+        -4.32,
+        5.290474172316566e-16,
+        -3.14
+      ],
+      [
+        -1.3349534156997735,
+        -4.108564150395064,
+        -3.14
+      ],
+      [
+        3.4949534156997726,
+        -2.539232289903485,
+        -3.14
+      ]
+    ],
+    "quantum_atom": 6,
+    "quantum_exponents": [
+      4.0,
+      8.0,
+      16.0
+    ],
+    "quantum_lmax": 1,
+    "energy": -1628.4000103624767,
+    "energy_components": {
+      "electronic_one_body": -4052.1953421451976,
+      "electronic_coulomb": 1634.6990311099582,
+      "electronic_exchange_correlation": -110.29062463022271,
+      "electronic_nonlocal_correlation": 0.0,
+      "electron_quantum_coulomb": -18.58108702988615,
+      "quantum_pair_coulomb": 0.0,
+      "interspecies_correlation": 0.0,
+      "quantum_kinetic": 0.017195313746505812,
+      "quantum_classical": 17.503001722088708,
+      "classical": 900.4478152970363
+    },
+    "electronic_converged": true,
+    "quantum_commutator": 6.307810850492855e-14,
+    "quantum_density_map": 1.6445922031585884e-12,
+    "iterations": 35,
+    "provenance": "independent PySCF 2.14.0 Gaussian integrals and RHF; SciPy generalized nuclear eigensolve; no production density, energy, orbitals or kernel; independent dense coupled curvature and negative-mode following; all trial energies evaluated by the independent AO tensors",
+    "stability_follow_history": [
+      {
+        "energy": -1628.3360457551212,
+        "eigenvalues": [
+          -0.04359195450371224,
+          6.319811240374003e-05,
+          0.025963216656263038,
+          0.026123710291919018,
+          0.03060000462643432
+        ],
+        "raw_asymmetry": 1.1379786002407855e-15,
+        "raw_eigen_residual": 1.595463768203513e-14,
+        "dimension": 1451,
+        "space": "restricted electronic plus one quantum Hartree orbital",
+        "normalization": "one half of the variational energy Hessian"
+      },
+      {
+        "energy": -1628.4000103624767,
+        "eigenvalues": [
+          0.00020580612765033965,
+          0.025927700654091668,
+          0.026073748424215608,
+          0.030598644043707386,
+          0.046744083436177565
+        ],
+        "raw_asymmetry": 1.0026701691145945e-15,
+        "raw_eigen_residual": 3.0186736778521756e-14,
+        "dimension": 1451,
+        "space": "restricted electronic plus one quantum Hartree orbital",
+        "normalization": "one half of the variational energy Hessian"
+      }
+    ],
+    "initial_guess": "minao-core",
+    "orbital_stability": {
+      "eigenvalues": [
+        0.00020580612765033965,
+        0.025927700654091668,
+        0.026073748424215608,
+        0.030598644043707386,
+        0.046744083436177565
+      ],
+      "raw_asymmetry": 1.0026701691145945e-15,
+      "raw_eigen_residual": 3.0186736778521756e-14,
+      "dimension": 1451,
+      "space": "restricted electronic plus one quantum Hartree orbital",
+      "normalization": "one half of the variational energy Hessian"
+    },
+    "alternate_stationary_states": [
+      {
+        "energy": -1628.3360457551194,
+        "energy_components": {
+          "electronic_one_body": -4052.919259194094,
+          "electronic_coulomb": 1635.589431599577,
+          "electronic_exchange_correlation": -110.38910156334225,
+          "electronic_nonlocal_correlation": 0.0,
+          "electron_quantum_coulomb": -18.586042068041635,
+          "quantum_pair_coulomb": 0.0,
+          "interspecies_correlation": 0.0,
+          "quantum_kinetic": 0.01720694408479423,
+          "quantum_classical": 17.50390322966051,
+          "classical": 900.4478152970363
+        },
+        "orbital_stability": {
+          "eigenvalues": [
+            -0.0435919545036805,
+            6.319811229916567e-05,
+            0.025963216656418313,
+            0.02612371029215358,
+            0.030600004626590342
+          ],
+          "raw_asymmetry": 1.1796119636642288e-15,
+          "raw_eigen_residual": 4.804833345333637e-14,
+          "dimension": 1451,
+          "space": "restricted electronic plus one quantum Hartree orbital",
+          "normalization": "one half of the variational energy Hessian"
+        },
+        "initial_guess": "1e-kinetic",
+        "provenance": "independent PySCF 2.14.0 Gaussian integrals and RHF; SciPy generalized nuclear eigensolve; no production density, energy, orbitals or kernel"
+      }
+    ],
+    "validation_state": "independently verified local minimum in the restricted electronic and distinguishable quantum Hartree orbital space"
+  }
+]

@@ -1,0 +1,10 @@
+# PROVENANCE: PySCF 2.14.0 SCF oracle
+# geometry unit: Bohr (exact literals)
+basis,sto-3g
+charge,0
+mult,1
+method,rhf
+atom,7,0.0,0.0,0.0
+atom,7,0.0,0.0,2.0743
+e_tot,-1.07495885771434e+02
+e_nuc,2.36224268427903e+01

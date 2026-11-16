@@ -1,0 +1,1620 @@
+{
+ "provenance": "PySCF 2.13.1 RKS (libxc-backed, values only), grid level 9",
+ "basis": "sto-3g",
+ "grid_level": 9,
+ "molecules": {
+  "h2": {
+   "numbers": [
+    1,
+    1
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     -0.7
+    ],
+    [
+     0.0,
+     0.0,
+     0.7
+    ]
+   ]
+  },
+  "lih": {
+   "numbers": [
+    3,
+    1
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     3.0139
+    ]
+   ]
+  },
+  "water": {
+   "numbers": [
+    8,
+    1,
+    1
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.2217
+    ],
+    [
+     0.0,
+     1.4309,
+     -0.8867
+    ],
+    [
+     0.0,
+     -1.4309,
+     -0.8867
+    ]
+   ]
+  },
+  "phosphine": {
+   "numbers": [
+    15,
+    1,
+    1,
+    1
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     2.27,
+     0.0,
+     -1.46
+    ],
+    [
+     -1.1349999999999996,
+     1.9658776665906759,
+     -1.46
+    ],
+    [
+     -1.1350000000000011,
+     -1.9658776665906752,
+     -1.46
+    ]
+   ]
+  },
+  "ferrocene": {
+   "numbers": [
+    26,
+    6,
+    6,
+    6,
+    6,
+    6,
+    1,
+    1,
+    1,
+    1,
+    1,
+    6,
+    6,
+    6,
+    6,
+    6,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     2.28,
+     0.0,
+     3.14
+    ],
+    [
+     0.7045587471748801,
+     2.16840885715295,
+     3.14
+    ],
+    [
+     -1.8445587471748799,
+     1.3401503752268389,
+     3.14
+    ],
+    [
+     -1.8445587471748803,
+     -1.3401503752268384,
+     3.14
+    ],
+    [
+     0.7045587471748797,
+     -2.1684088571529503,
+     3.14
+    ],
+    [
+     4.32,
+     0.0,
+     3.14
+    ],
+    [
+     1.334953415699773,
+     4.108564150395064,
+     3.14
+    ],
+    [
+     -3.4949534156997726,
+     2.5392322899034845,
+     3.14
+    ],
+    [
+     -3.494953415699774,
+     -2.5392322899034836,
+     3.14
+    ],
+    [
+     1.3349534156997722,
+     -4.108564150395064,
+     3.14
+    ],
+    [
+     1.84455874717488,
+     1.3401503752268387,
+     -3.14
+    ],
+    [
+     -0.7045587471748799,
+     2.1684088571529503,
+     -3.14
+    ],
+    [
+     -2.28,
+     2.792194702055965e-16,
+     -3.14
+    ],
+    [
+     -0.7045587471748804,
+     -2.16840885715295,
+     -3.14
+    ],
+    [
+     1.8445587471748799,
+     -1.340150375226839,
+     -3.14
+    ],
+    [
+     3.494953415699773,
+     2.539232289903484,
+     -3.14
+    ],
+    [
+     -1.3349534156997727,
+     4.108564150395064,
+     -3.14
+    ],
+    [
+     -4.32,
+     5.290474172316566e-16,
+     -3.14
+    ],
+    [
+     -1.3349534156997735,
+     -4.108564150395064,
+     -3.14
+    ],
+    [
+     3.4949534156997726,
+     -2.539232289903485,
+     -3.14
+    ]
+   ]
+  }
+ },
+ "cases": [
+  {
+   "spec": "pbesol",
+   "pyscf_xc": "gga_x_pbe_sol,gga_c_pbe_sol",
+   "radial": null,
+   "energies": {
+    "h2": -1.1321333302243266,
+    "lih": -7.8474759537659295,
+    "water": -74.96522576598093,
+    "phosphine": -338.4743094259372,
+    "ferrocene": -1628.7458228051507
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "rpbe",
+   "pyscf_xc": "gga_x_rpbe,gga_c_pbe",
+   "radial": null,
+   "energies": {
+    "h2": -1.1643985100739291,
+    "lih": -7.956860042737363,
+    "water": -75.3143058294198,
+    "phosphine": -339.2377109645398,
+    "ferrocene": -1632.3218017475049
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "pw91",
+   "pyscf_xc": "gga_x_pw91,gga_c_pw91",
+   "radial": null,
+   "energies": {
+    "h2": -1.1560309332459258,
+    "lih": -7.935614011139563,
+    "water": -75.27922209184064,
+    "phosphine": -339.2234872055558,
+    "ferrocene": -1632.1933093537257
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "scan",
+   "pyscf_xc": "mgga_x_scan,mgga_c_scan",
+   "radial": 200,
+   "energies": {
+    "h2": -1.157445874225815,
+    "lih": -7.943064574357953,
+    "water": -75.29562842832954,
+    "phosphine": -339.2844930582189,
+    "ferrocene": -1632.2916269577693
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "lrc-wpbeh",
+   "pyscf_xc": "HYB_GGA_XC_LRC_WPBEH",
+   "radial": null,
+   "energies": {
+    "h2": -1.1574749253945353,
+    "lih": -7.931137023837236,
+    "water": -75.25336625911392,
+    "phosphine": -339.13822171875813,
+    "ferrocene": -1631.7077886377872
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "spz81",
+   "pyscf_xc": "lda_x,lda_c_pz",
+   "radial": null,
+   "energies": {
+    "h2": -1.1213281430784106,
+    "lih": -7.791213781691161,
+    "water": -74.72727785251699,
+    "phosphine": -337.9184948189161,
+    "ferrocene": -1626.1819107190743
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "xalpha07",
+   "pyscf_xc": "1.05*lda_x,",
+   "radial": null,
+   "energies": {
+    "h2": -1.054154703175795,
+    "lih": -7.666622652188826,
+    "water": -74.46998455212783,
+    "phosphine": -337.6986957651402,
+    "ferrocene": -1624.5218974785087
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": [
+    "slater",
+    "wigner"
+   ],
+   "pyscf_xc": "lda_x,lda_c_wigner",
+   "radial": null,
+   "energies": {
+    "h2": -1.115700257014396,
+    "lih": -7.759087436158419,
+    "water": -74.56281277910932,
+    "phosphine": -337.52113563255097,
+    "ferrocene": -1624.3383243028381
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": [
+    "slater",
+    "hl"
+   ],
+   "pyscf_xc": "lda_x,lda_c_hl",
+   "radial": null,
+   "energies": {
+    "h2": -1.1275538166588253,
+    "lih": -7.801406869737006,
+    "water": -74.7437825518356,
+    "phosphine": -337.9262996997531,
+    "ferrocene": -1626.2805530777248
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": [
+    "slater",
+    "gl"
+   ],
+   "pyscf_xc": "lda_x,lda_c_gl",
+   "radial": null,
+   "energies": {
+    "h2": -1.1423713625091576,
+    "lih": -7.8409672118292075,
+    "water": -74.88582524546008,
+    "phosphine": -338.2212141234328,
+    "ferrocene": -1627.7473178699304
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "bpw91",
+   "pyscf_xc": "gga_x_b88,gga_c_pw91",
+   "radial": null,
+   "energies": {
+    "h2": -1.1631310258544891,
+    "lih": -7.948953837939635,
+    "water": -75.30443674797866,
+    "phosphine": -339.2585031017969,
+    "ferrocene": -1632.3493191972077
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "olyp",
+   "pyscf_xc": "gga_x_optx,gga_c_lyp",
+   "radial": null,
+   "energies": {
+    "h2": -1.160391737621243,
+    "lih": -7.951341525074742,
+    "water": -75.31088289974032,
+    "phosphine": -339.2932860073003,
+    "ferrocene": -1632.543360445249
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "opbe",
+   "pyscf_xc": "gga_x_optx,gga_c_pbe",
+   "radial": null,
+   "energies": {
+    "h2": -1.1664362752537136,
+    "lih": -7.948556211644812,
+    "water": -75.31520906085348,
+    "phosphine": -339.28158269938876,
+    "ferrocene": -1632.6203323663933
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "opw91",
+   "pyscf_xc": "gga_x_optx,gga_c_pw91",
+   "radial": null,
+   "energies": {
+    "h2": -1.1686144217371979,
+    "lih": -7.9559890465687975,
+    "water": -75.33790306197604,
+    "phosphine": -339.3334458227339,
+    "ferrocene": -1632.8602929565716
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "mpwlyp",
+   "pyscf_xc": "gga_x_mpw91,gga_c_lyp",
+   "radial": null,
+   "energies": {
+    "h2": -1.1520739592329554,
+    "lih": -7.94016360219922,
+    "water": -75.2726928584767,
+    "phosphine": -339.21924990691355,
+    "ferrocene": -1632.0384413005593
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "mpwpw91",
+   "pyscf_xc": "gga_x_mpw91,gga_c_pw91",
+   "radial": null,
+   "energies": {
+    "h2": -1.1602966433489104,
+    "lih": -7.944813019775099,
+    "water": -75.29967573767928,
+    "phosphine": -339.2590776103087,
+    "ferrocene": -1632.3545087745263
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "mpwpbe",
+   "pyscf_xc": "gga_x_mpw91,gga_c_pbe",
+   "radial": null,
+   "energies": {
+    "h2": -1.1581184968654266,
+    "lih": -7.937383186310882,
+    "water": -75.27698311935734,
+    "phosphine": -339.2071977302681,
+    "ferrocene": -1632.114544216641
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "g96lyp",
+   "pyscf_xc": "gga_x_g96,gga_c_lyp",
+   "radial": null,
+   "energies": {
+    "h2": -1.1590589987130464,
+    "lih": -7.9472635933650455,
+    "water": -75.28388760404853,
+    "phosphine": -339.23859180914246,
+    "ferrocene": -1632.1033768247119
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "xlyp",
+   "pyscf_xc": "gga_xc_xlyp",
+   "radial": null,
+   "energies": {
+    "h2": -1.1587654442610562,
+    "lih": -7.959132824441211,
+    "water": -75.32932326893959,
+    "phosphine": -339.3399957748717,
+    "ferrocene": -1632.600375708863
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "kt1",
+   "pyscf_xc": "gga_xc_kt1",
+   "radial": null,
+   "energies": {
+    "h2": -1.137409962077153,
+    "lih": -8.059989732477494,
+    "water": -76.05958219096863,
+    "phosphine": -341.0925582115247,
+    "ferrocene": -1641.275773676148
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "kt2",
+   "pyscf_xc": "gga_xc_kt2",
+   "radial": null,
+   "energies": {
+    "h2": -1.1385058181407715,
+    "lih": -8.101757663818931,
+    "water": -76.36326116611838,
+    "phosphine": -342.09858620621236,
+    "ferrocene": -1645.66138521996
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "kt3",
+   "pyscf_xc": "gga_xc_kt3",
+   "radial": null,
+   "energies": {
+    "h2": -1.1658932553257033,
+    "lih": -8.12597572759769,
+    "water": -76.30909707741525,
+    "phosphine": -341.8829853485189,
+    "ferrocene": -1644.6653079609985
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "sogga",
+   "pyscf_xc": "gga_x_sogga,gga_c_pbe",
+   "radial": null,
+   "energies": {
+    "h2": -1.1221304042738467,
+    "lih": -7.824039433730176,
+    "water": -74.90718136030678,
+    "phosphine": -338.3618428473943,
+    "ferrocene": -1628.2084205318668
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "xpbe",
+   "pyscf_xc": "gga_x_xpbe,gga_c_xpbe",
+   "radial": null,
+   "energies": {
+    "h2": -1.1572268379596746,
+    "lih": -7.942376412434173,
+    "water": -75.29477936679649,
+    "phosphine": -339.2390174212152,
+    "ferrocene": -1632.2715276422507
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "apbe",
+   "pyscf_xc": "gga_x_apbe,gga_c_apbe",
+   "radial": null,
+   "energies": {
+    "h2": -1.158352575818058,
+    "lih": -7.945564274629232,
+    "water": -75.31828188426013,
+    "phosphine": -339.3055671969797,
+    "ferrocene": -1632.5733176294582
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "pbeint",
+   "pyscf_xc": "gga_x_pbeint,gga_c_pbeint",
+   "radial": null,
+   "energies": {
+    "h2": -1.136098265929863,
+    "lih": -7.860818778663418,
+    "water": -74.99980007050688,
+    "phosphine": -338.53327197001283,
+    "ferrocene": -1629.0411002757571
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "wc",
+   "pyscf_xc": "gga_x_wc,gga_c_pbe",
+   "radial": null,
+   "energies": {
+    "h2": -1.1386973570086947,
+    "lih": -7.877200284831947,
+    "water": -75.09093171025059,
+    "phosphine": -338.809448573792,
+    "ferrocene": -1630.248227353952
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "mpbe",
+   "pyscf_xc": "gga_x_mpbe,gga_c_pbe",
+   "radial": null,
+   "energies": {
+    "h2": -1.1554879510377796,
+    "lih": -7.93091866677711,
+    "water": -75.2519971714995,
+    "phosphine": -339.1296319613096,
+    "ferrocene": -1631.7845046859113
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "b97-d",
+   "pyscf_xc": "gga_xc_b97_d",
+   "radial": null,
+   "energies": {
+    "h2": -1.170180399684118,
+    "lih": -7.966399314751731,
+    "water": -75.29194472576994,
+    "phosphine": -339.29063118960255,
+    "ferrocene": -1632.5105092174201
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": [
+    "pw86",
+    "pbe"
+   ],
+   "pyscf_xc": "gga_x_pw86,gga_c_pbe",
+   "radial": null,
+   "energies": {
+    "h2": -1.1631965722196669,
+    "lih": -7.958370591537417,
+    "water": -75.3411412763043,
+    "phosphine": -339.333639778795,
+    "ferrocene": -1632.698353648205
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": [
+    "lg93",
+    "pbe"
+   ],
+   "pyscf_xc": "gga_x_lg93,gga_c_pbe",
+   "radial": null,
+   "energies": {
+    "h2": -1.160366164605409,
+    "lih": -7.949185724897987,
+    "water": -75.30874674772319,
+    "phosphine": -339.247005917853,
+    "ferrocene": -1632.2945764738954
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": [
+    "ft97",
+    "pbe"
+   ],
+   "pyscf_xc": "gga_x_ft97_b,gga_c_pbe",
+   "radial": null,
+   "energies": {
+    "h2": -1.1675621730148515,
+    "lih": -7.9547006644740215,
+    "water": -75.2759155892648,
+    "phosphine": -339.2254085600914,
+    "ferrocene": -1632.120989213988
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "am05",
+   "pyscf_xc": "gga_x_am05,gga_c_am05",
+   "radial": null,
+   "energies": {
+    "h2": -1.1331657288105763,
+    "lih": -7.828240100012364,
+    "water": -74.82109412869917,
+    "phosphine": -338.0738023168857,
+    "ferrocene": -1626.929029535839
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "n12",
+   "pyscf_xc": "gga_x_n12,gga_c_n12",
+   "radial": null,
+   "energies": {
+    "h2": -1.1442090188073806,
+    "lih": -7.976956733401559,
+    "water": -75.26368442122822,
+    "phosphine": -339.1444960984197,
+    "ferrocene": -1632.472990735116
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "gam",
+   "pyscf_xc": "gga_x_gam,gga_c_gam",
+   "radial": null,
+   "energies": {
+    "h2": -1.1571624461761698,
+    "lih": -7.992352979948603,
+    "water": -75.32721275135354,
+    "phosphine": -339.3237948775237,
+    "ferrocene": -1633.3089081043738
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "sogga11",
+   "pyscf_xc": "gga_x_sogga11,gga_c_sogga11",
+   "radial": null,
+   "energies": {
+    "h2": -1.1571556733752333,
+    "lih": -7.949228832805746,
+    "water": -75.28719508446396,
+    "phosphine": -339.1935596783118,
+    "ferrocene": -1632.3531922386458
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "pbeloc",
+   "pyscf_xc": "gga_x_pbe,gga_c_pbeloc",
+   "radial": null,
+   "energies": {
+    "h2": -1.146649551413553,
+    "lih": -7.9125568730176195,
+    "water": -75.22650003505528,
+    "phosphine": -339.1123550848498,
+    "ferrocene": -1631.6650602690727
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "bop",
+   "pyscf_xc": "gga_x_b88,gga_c_op_b88",
+   "radial": null,
+   "energies": {
+    "h2": -1.1618566366512764,
+    "lih": -7.95493088205885,
+    "water": -75.28520400064713,
+    "phosphine": -339.21067174494954,
+    "ferrocene": -1631.997184382208
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "edf1",
+   "pyscf_xc": "gga_xc_edf1",
+   "radial": null,
+   "energies": {
+    "h2": -1.1645024340230843,
+    "lih": -7.958724147152086,
+    "water": -75.33365114741075,
+    "phosphine": -339.3237356052538,
+    "ferrocene": -1632.6565799749526
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": [
+    "pbe",
+    "vpbe"
+   ],
+   "pyscf_xc": "gga_x_pbe,gga_c_pbe_vwn",
+   "radial": null,
+   "energies": {
+    "h2": -1.152254797169189,
+    "lih": -7.921303692912286,
+    "water": -75.22818490125387,
+    "phosphine": -339.0867075361747,
+    "ferrocene": -1631.5741799926475
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "rscan",
+   "pyscf_xc": "mgga_x_rscan,mgga_c_rscan",
+   "radial": null,
+   "energies": {
+    "h2": -1.1574458742253384,
+    "lih": -7.9439268729556005,
+    "water": -75.31080357664239,
+    "phosphine": -339.32224468023924,
+    "ferrocene": -1632.4844159755305
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "revtpss",
+   "pyscf_xc": "mgga_x_revtpss,mgga_c_revtpss",
+   "radial": null,
+   "energies": {
+    "h2": -1.1692403797713067,
+    "lih": -7.965130543891965,
+    "water": -75.29901492833761,
+    "phosphine": -339.1723263429898,
+    "ferrocene": -1632.0734087712278
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "modtpss",
+   "pyscf_xc": "mgga_x_modtpss,mgga_c_tpss",
+   "radial": null,
+   "energies": {
+    "h2": -1.1669786273147094,
+    "lih": -7.9617552887843654,
+    "water": -75.32065583868113,
+    "phosphine": -339.2590670673844,
+    "ferrocene": -1632.3950450692703
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "bb95",
+   "pyscf_xc": "gga_x_b88,mgga_c_bc95",
+   "radial": null,
+   "energies": {
+    "h2": -1.1533434450131246,
+    "lih": -7.940047361392386,
+    "water": -75.29021914322594,
+    "phosphine": -339.27029620166593,
+    "ferrocene": -1632.363091456514
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "b1b95",
+   "pyscf_xc": "HYB_MGGA_XC_B88B95",
+   "radial": null,
+   "energies": {
+    "h2": -1.1533708348615237,
+    "lih": -7.94192795409141,
+    "water": -75.2970577478404,
+    "phosphine": -339.2942059559589,
+    "ferrocene": -1632.3096292989192
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "bb1k",
+   "pyscf_xc": "HYB_MGGA_XC_BB1K",
+   "radial": null,
+   "energies": {
+    "h2": -1.1533845297857241,
+    "lih": -7.942960901613832,
+    "water": -75.30055019477176,
+    "phosphine": -339.30648498949154,
+    "ferrocene": -1632.2964724650067
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "mpw1b95",
+   "pyscf_xc": "HYB_MGGA_XC_MPW1B95",
+   "radial": null,
+   "energies": {
+    "h2": -1.1514180455592893,
+    "lih": -7.93924879863131,
+    "water": -75.29452092347589,
+    "phosphine": -339.297202380972,
+    "ferrocene": -1632.309589815579
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "pw6b95",
+   "pyscf_xc": "HYB_MGGA_XC_PW6B95",
+   "radial": null,
+   "energies": {
+    "h2": -1.1607605511496586,
+    "lih": -7.970278550368359,
+    "water": -75.40211957789812,
+    "phosphine": -339.55084652744256,
+    "ferrocene": -1633.5015188594846
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "pwb6k",
+   "pyscf_xc": "HYB_MGGA_XC_PWB6K",
+   "radial": null,
+   "energies": {
+    "h2": -1.1554905452015403,
+    "lih": -7.9567010470773685,
+    "water": -75.36116715954822,
+    "phosphine": -339.4680581253235,
+    "ferrocene": -1633.016515505937
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "b3lyp*",
+   "pyscf_xc": "HYB_GGA_XC_B3LYPs",
+   "radial": null,
+   "energies": {
+    "h2": -1.1608157218350446,
+    "lih": -7.94710506756641,
+    "water": -75.26739336810543,
+    "phosphine": -339.1693999506447,
+    "ferrocene": -1631.7957035462161
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "x3lyp",
+   "pyscf_xc": "HYB_GGA_XC_X3LYP",
+   "radial": null,
+   "energies": {
+    "h2": -1.1591457240593526,
+    "lih": -7.94901719947404,
+    "water": -75.28265012910745,
+    "phosphine": -339.2187820674641,
+    "ferrocene": -1631.9618309869659
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "b3p86",
+   "pyscf_xc": "HYB_GGA_XC_B3P86",
+   "radial": null,
+   "energies": {
+    "h2": -1.1728449689193265,
+    "lih": -7.964756205959683,
+    "water": -75.33943014184807,
+    "phosphine": -339.3241402987645,
+    "ferrocene": -1632.5752918833152
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "mpw3pw91",
+   "pyscf_xc": "HYB_GGA_XC_MPW3PW",
+   "radial": null,
+   "energies": {
+    "h2": -1.1700205465786513,
+    "lih": -7.9624877917637065,
+    "water": -75.33098901913472,
+    "phosphine": -339.30309207301616,
+    "ferrocene": -1632.496931285137
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "b1lyp",
+   "pyscf_xc": "HYB_GGA_XC_B1LYP",
+   "radial": null,
+   "energies": {
+    "h2": -1.15493279696032,
+    "lih": -7.945837609027247,
+    "water": -75.2835105478827,
+    "phosphine": -339.239927202474,
+    "ferrocene": -1631.9854495548195
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "b1pw91",
+   "pyscf_xc": "HYB_GGA_XC_B1PW91",
+   "radial": null,
+   "energies": {
+    "h2": -1.1631554810762745,
+    "lih": -7.950726455523478,
+    "water": -75.3105267837381,
+    "phosphine": -339.27977598068657,
+    "ferrocene": -1632.300818084933
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "bhandh",
+   "pyscf_xc": "HYB_GGA_XC_BHANDH",
+   "radial": null,
+   "energies": {
+    "h2": -1.1091541024886769,
+    "lih": -7.8065626863003,
+    "water": -74.8507574025852,
+    "phosphine": -338.29465344824473,
+    "ferrocene": -1627.45713862642
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "bhandhlyp",
+   "pyscf_xc": "HYB_GGA_XC_BHANDHLYP",
+   "radial": null,
+   "energies": {
+    "h2": -1.1549572521821059,
+    "lih": -7.947651403265228,
+    "water": -75.2897166944256,
+    "phosphine": -339.261856299291,
+    "ferrocene": -1631.965715778818
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "pbe0-1/3",
+   "pyscf_xc": "HYB_GGA_XC_PBE0_13",
+   "radial": null,
+   "energies": {
+    "h2": -1.1550598153125256,
+    "lih": -7.929932372127702,
+    "water": -75.25245310089312,
+    "phosphine": -339.1517566491707,
+    "ferrocene": -1631.6765557230112
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "mpw1pw91",
+   "pyscf_xc": "HYB_GGA_XC_MPW1PW",
+   "radial": null,
+   "energies": {
+    "h2": -1.1610296941970906,
+    "lih": -7.947562607307379,
+    "water": -75.30695912962764,
+    "phosphine": -339.28019565829055,
+    "ferrocene": -1632.3046437394935
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "mpw1lyp",
+   "pyscf_xc": "HYB_GGA_XC_MPW1LYP",
+   "radial": null,
+   "energies": {
+    "h2": -1.1528070100811356,
+    "lih": -7.942720055911437,
+    "water": -75.27994071234372,
+    "phosphine": -339.24033967152786,
+    "ferrocene": -1631.989265349943
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "mpw1pbe",
+   "pyscf_xc": "HYB_GGA_XC_MPW1PBE",
+   "radial": null,
+   "energies": {
+    "h2": -1.1588515477136068,
+    "lih": -7.940129808111758,
+    "water": -75.28426569757481,
+    "phosphine": -339.22830994536497,
+    "ferrocene": -1632.064504104875
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "mpw1k",
+   "pyscf_xc": "HYB_GGA_XC_MPW1K",
+   "radial": null,
+   "energies": {
+    "h2": -1.1615516264009949,
+    "lih": -7.949655888270394,
+    "water": -75.31223720234236,
+    "phosphine": -339.29565427986506,
+    "ferrocene": -1632.2866030711214
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "b97-1",
+   "pyscf_xc": "HYB_GGA_XC_B97_1",
+   "radial": null,
+   "energies": {
+    "h2": -1.1582216407376404,
+    "lih": -7.950087751260403,
+    "water": -75.30167571109395,
+    "phosphine": -339.2347795631772,
+    "ferrocene": -1632.0774430593349
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "b97-2",
+   "pyscf_xc": "HYB_GGA_XC_B97_2",
+   "radial": null,
+   "energies": {
+    "h2": -1.1628990662112941,
+    "lih": -7.956899626429733,
+    "water": -75.31429202532202,
+    "phosphine": -339.3099897796959,
+    "ferrocene": -1632.4870725891521
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "b97-3",
+   "pyscf_xc": "HYB_GGA_XC_B97_3",
+   "radial": null,
+   "energies": {
+    "h2": -1.1636196612387755,
+    "lih": -7.9555924654744015,
+    "water": -75.31124281000079,
+    "phosphine": -339.2478898359317,
+    "ferrocene": -1632.0982233787674
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "b97-k",
+   "pyscf_xc": "HYB_GGA_XC_B97_K",
+   "radial": null,
+   "energies": {
+    "h2": -1.151583483299195,
+    "lih": -7.945266233691406,
+    "water": -75.29222918243171,
+    "phosphine": -339.1447325785339,
+    "ferrocene": -1631.4912577405
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "tpss0",
+   "pyscf_xc": "HYB_MGGA_XC_TPSS0",
+   "radial": null,
+   "energies": {
+    "h2": -1.164911776461031,
+    "lih": -7.958350846032433,
+    "water": -75.32167526389223,
+    "phosphine": -339.2894691250589,
+    "ferrocene": -1632.361184925008
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "revtpssh",
+   "pyscf_xc": "HYB_MGGA_XC_REVTPSSH",
+   "radial": null,
+   "energies": {
+    "h2": -1.1685723375138548,
+    "lih": -7.9641097828549405,
+    "water": -75.30083477239793,
+    "phosphine": -339.18622677986957,
+    "ferrocene": -1632.0652824157917
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "scan0",
+   "pyscf_xc": "HYB_MGGA_X_SCAN0,MGGA_C_SCAN",
+   "radial": null,
+   "energies": {
+    "h2": -1.1562730770492449,
+    "lih": -7.942500069424684,
+    "water": -75.2921815081401,
+    "phosphine": -339.27746156378714,
+    "ferrocene": -1632.169562752187
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "r2scan0",
+   "pyscf_xc": "HYB_MGGA_XC_R2SCAN0",
+   "radial": null,
+   "energies": {
+    "h2": -1.1562730770492151,
+    "lih": -7.9420803077345905,
+    "water": -75.28593163391888,
+    "phosphine": -339.24609214902966,
+    "ferrocene": -1632.0519295501274
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "r2scanh",
+   "pyscf_xc": "HYB_MGGA_XC_R2SCANH",
+   "radial": null,
+   "energies": {
+    "h2": -1.156976755354889,
+    "lih": -7.942313802285364,
+    "water": -75.2864907714709,
+    "phosphine": -339.2432900198577,
+    "ferrocene": -1632.099435755738
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  },
+  {
+   "spec": "r2scan50",
+   "pyscf_xc": "HYB_MGGA_XC_R2SCAN50",
+   "radial": null,
+   "energies": {
+    "h2": -1.1551002798730905,
+    "lih": -7.941744526490494,
+    "water": -75.28508757223571,
+    "phosphine": -339.2510639237871,
+    "ferrocene": -1631.9893716571676
+   },
+   "converged": {
+    "h2": true,
+    "lih": true,
+    "water": true,
+    "phosphine": true,
+    "ferrocene": true
+   }
+  }
+ ]
+}

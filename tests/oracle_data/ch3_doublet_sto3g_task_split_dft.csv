@@ -1,0 +1,11 @@
+# PROVENANCE: PySCF 2.14.0, libxc 7.0.0; task exchange + original PW92
+basis,sto-3g
+x,task
+c,pw92
+charge,0
+mult,2
+atom,6,0.0,0.0,0.0
+atom,1,2.0395,0.0,0.0
+atom,1,-1.0197,1.7662,0.0
+atom,1,-1.0197,-1.7662,0.0
+e_tot,-3.9434287497225810e+01

@@ -1,0 +1,11 @@
+# PROVENANCE: PySCF 2.14.0, libxc 7.0.0; HYB_GGA_XC_WP04; VWN-RPA
+# spherical STO-3G, grid9, zero temperature; no frozen core/extra corrections
+basis,sto-3g
+functional,wp04
+charge,0
+mult,2
+atom,6,0.0,0.0,0.0
+atom,1,2.0395,0.0,0.0
+atom,1,-1.0197,1.7662,0.0
+atom,1,-1.0197,-1.7662,0.0
+e_tot,-4.0476061598044225e+01

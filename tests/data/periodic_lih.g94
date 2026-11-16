@@ -1,0 +1,13 @@
+! SPDX-License-Identifier: Apache-2.0
+! Copyright (c) 2026 ss0832
+! Compact all-electron periodic response fixture.
+H 0
+S 1 1.0
+0.8 1.0
+****
+Li 0
+S 1 1.0
+4.0 1.0
+S 1 1.0
+0.65 1.0
+****

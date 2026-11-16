@@ -1,0 +1,5 @@
+# PROVENANCE: PySCF 2.14.0 SAPT electrostatics oracle (values only)
+# HF/STO-3G water dimer, Bohr literals as in tests/p12_sapt.rs
+e_monomer_a,-74.962960008157
+e_monomer_b,-74.962441673366
+e_elst,-0.004941848941

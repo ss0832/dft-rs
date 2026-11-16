@@ -1,0 +1,9 @@
+# PROVENANCE: PySCF 2.14.0 ECP oracle (closed-shell transition-metal case, values only)
+basis,lanl2dz
+functional,hf
+charge,0
+mult,1
+atom,30,0,0,0
+atom,1,0,0,2.929
+atom,1,0,0,-2.929
+e_tot,-6.46273937454991e+01

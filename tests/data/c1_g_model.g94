@@ -1,0 +1,55 @@
+! SPDX-License-Identifier: Apache-2.0
+! Copyright (c) 2026 ss0832
+! This file is part of the dft-rs library.
+! Compact high-angular numerical model, not a recommended chemical basis.
+! The acceptance uses two/three electrons so every model has occupied and virtual spaces.
+! The high-l shell is on an off-core He centre, retaining nonlocal ECP projections.
+! Scalar core potentials retain their bundled provenance and numerical parameters.
+! See third_party/bse and THIRD_PARTY_NOTICES.md for core-data provenance.
+H 0
+S 1 1.00
+  0.85 1.0
+****
+He 0
+S 1 1.00
+  0.85 1.0
+G 1 1.00
+  0.40 1.0
+****
+N 0
+S 2 1.00
+  6.3 0.6
+  1.4 0.5
+S 1 1.00
+  0.30 1.0
+****
+P 0
+S 1 1.00
+  0.50 1.0
+S 1 1.00
+  0.15 1.0
+****
+P 0
+P-ECP 2 10
+d potential
+5
+1 462.1211423 -10.0000000
+2 93.6863701 -79.4864658
+2 21.2349094 -28.3668251
+2 6.3388415 -9.8577589
+2 2.0620684 -1.0163783
+s-d potential
+5
+0 78.0831823 3.0000000
+1 58.9576810 12.9104154
+2 36.0571255 150.0250298
+2 11.2464453 71.7083146
+2 2.6757561 23.0397012
+p-d potential
+6
+0 75.1617880 5.0000000
+1 57.4544041 6.3446507
+2 47.9481748 198.5585104
+2 18.4588360 111.1470820
+2 5.9414190 40.3944144
+2 1.8487507 6.4483233

@@ -1,0 +1,227 @@
+{
+  "provenance": "PySCF 2.14.0 CASSCF and MC-PDFT oracle (values only), grid level 9, package STO-3G basis, geometry in Bohr, orbital gradient 1e-6; nuclear, one-electron, Coulomb and unscaled on-top terms independently decomposed on the same grid",
+  "cases": [
+    {
+      "molecule": "water",
+      "cas": [
+        8,
+        6
+      ],
+      "roots": 1,
+      "on_top_functional": "tpbe",
+      "method": "state-specific",
+      "cas_energies": [
+        -75.01594001584175
+      ],
+      "pdft_energies": [
+        -75.22689866503401
+      ],
+      "state_terms": {
+        "state_nuclear_repulsion": [
+          9.027118334195302
+        ],
+        "state_one_electron": [
+          -121.94949271124725
+        ],
+        "state_coulomb": [
+          47.08024467300189
+        ],
+        "state_on_top": [
+          -9.384768960983976
+        ]
+      }
+    },
+    {
+      "molecule": "water",
+      "cas": [
+        8,
+        6
+      ],
+      "roots": 1,
+      "on_top_functional": "ftpbe",
+      "method": "state-specific",
+      "cas_energies": [
+        -75.01594001584178
+      ],
+      "pdft_energies": [
+        -75.25265853041603
+      ],
+      "state_terms": {
+        "state_nuclear_repulsion": [
+          9.027118334195302
+        ],
+        "state_one_electron": [
+          -121.94949271124716
+        ],
+        "state_coulomb": [
+          47.080244673001836
+        ],
+        "state_on_top": [
+          -9.410528826365983
+        ]
+      }
+    },
+    {
+      "molecule": "water",
+      "cas": [
+        8,
+        6
+      ],
+      "roots": 1,
+      "on_top_functional": "tpbe0",
+      "method": "state-specific",
+      "cas_energies": [
+        -75.01594001584174
+      ],
+      "pdft_energies": [
+        -75.1741590027359
+      ],
+      "state_terms": {
+        "state_nuclear_repulsion": [
+          9.027118334195302
+        ],
+        "state_one_electron": [
+          -121.94949271124717
+        ],
+        "state_coulomb": [
+          47.08024467300184
+        ],
+        "state_on_top": [
+          -9.384768960983964
+        ]
+      }
+    },
+    {
+      "molecule": "lithium hydride",
+      "cas": [
+        2,
+        2
+      ],
+      "roots": 2,
+      "on_top_functional": "tpbe",
+      "method": "state-specific",
+      "cas_energies": [
+        -7.854926236377781,
+        -7.725835888406982
+      ],
+      "pdft_energies": [
+        -7.913733432615125,
+        -7.770234504708011
+      ]
+    },
+    {
+      "molecule": "lithium hydride",
+      "cas": [
+        2,
+        2
+      ],
+      "roots": 2,
+      "on_top_functional": "tpbe",
+      "method": "cms-pdft",
+      "cas_energies": [
+        -7.8549262363777785,
+        -7.725835888406979
+      ],
+      "pdft_energies": [
+        -7.909298146992678,
+        -7.757651875698617
+      ]
+    },
+    {
+      "molecule": "lithium hydride",
+      "cas": [
+        2,
+        2
+      ],
+      "roots": 2,
+      "on_top_functional": "tpbe",
+      "method": "l-pdft",
+      "cas_energies": [
+        -7.854926236377785,
+        -7.725835888406985
+      ],
+      "pdft_energies": [
+        -7.933491763783521,
+        -7.787287813790057
+      ]
+    },
+    {
+      "molecule": "lithium hydride",
+      "cas": [
+        2,
+        2
+      ],
+      "roots": 2,
+      "on_top_functional": "tpbe",
+      "method": "xms-pdft",
+      "cas_energies": [
+        -7.854926236377782,
+        -7.725835888406983
+      ],
+      "pdft_energies": [
+        -7.910388812637383,
+        -7.75985492541627
+      ]
+    },
+    {
+      "molecule": "hydrogen",
+      "cas": [
+        2,
+        2
+      ],
+      "roots": 1,
+      "on_top_functional": "tpbe",
+      "method": "state-specific",
+      "cas_energies": [
+        -1.1372759437826963
+      ],
+      "pdft_energies": [
+        -1.156622003551439
+      ],
+      "state_terms": {
+        "state_nuclear_repulsion": [
+          0.7142857142857143
+        ],
+        "state_one_electron": [
+          -2.4858459247061813
+        ],
+        "state_coulomb": [
+          1.348642145703016
+        ],
+        "state_on_top": [
+          -0.733703938833988
+        ]
+      }
+    },
+    {
+      "molecule": "hydrogen",
+      "cas": [
+        2,
+        2
+      ],
+      "roots": 1,
+      "on_top_functional": "ftpbe",
+      "method": "state-specific",
+      "cas_energies": [
+        -1.1372759437826963
+      ],
+      "pdft_energies": [
+        -1.160016226433157
+      ],
+      "state_terms": {
+        "state_nuclear_repulsion": [
+          0.7142857142857143
+        ],
+        "state_one_electron": [
+          -2.4858459247061813
+        ],
+        "state_coulomb": [
+          1.348642145703016
+        ],
+        "state_on_top": [
+          -0.7370981617157062
+        ]
+      }
+    }
+  ]
+}

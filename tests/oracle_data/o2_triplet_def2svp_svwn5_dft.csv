@@ -1,0 +1,9 @@
+# PROVENANCE: PySCF 2.14.0 DFT oracle (libxc-backed, values only)
+# geometry unit: Bohr (exact literals); pyscf grid level 9
+basis,def2-svp
+functional,svwn5
+charge,0
+mult,3
+atom,8,0.0,0.0,0.0
+atom,8,0.0,0.0,2.2819
+e_tot,-1.49145076803962e+02
